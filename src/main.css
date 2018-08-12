@@ -1,0 +1,127 @@
+.graphichead {font-family:'BentonSans', Helvetica, Arial, sans-serif; font-size:1.2em;font-weight:bold; display:block;}
+.subtitle {font-family:'BentonSans', Helvetica, Arial, sans-serif; font-size:0.9em; line-height:1.4em; margin-top:20px; margin-bottom:15px; }
+
+.chart_container{
+	width: 100%;
+	display: flex;
+	flex-flow:wrap;
+	margin: 0 auto;
+}
+.waffle_container{
+	width:75%
+}
+.image_container{
+	margin-top: 10px;
+	width: 25%
+	padding: 20px;
+
+}
+
+img{
+	height: 600px;
+	width: 100%
+}
+
+h3.text{
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:1.0em;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+.results{
+	display: flex;
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.8em;
+	font-weight: 500;
+	flex-flow:wrap;
+	margin-bottom: 15px;
+}
+h4{
+	margin-right: 10px;
+}
+.squareBox1 {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	display:block;
+	background:#000;
+
+}
+
+.squareBox2 {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	display:block;
+	background:#DB6950;
+
+}
+
+.squareBox3 {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	display:block;
+	background:#a0a0a0;
+
+}
+
+/* .squareBox4 {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	display:block;
+	background:#b266ff;
+
+}
+
+.squareBox5 {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	display:block;
+	background:#a0a0a0;
+
+} */
+
+h1{
+	font-weight: bold;
+	/* top:100px;
+	text-align: center; */
+	font-size:1.0em;
+}
+.square_legend{
+	display: flex;
+	flex-flow:wrap;
+}
+.legend_piece{
+
+	display:flex;
+	padding: 3px;
+
+}
+p.text{
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.8em;
+	margin-bottom: 6px;
+	margin-right: 8px;
+	line-height: 22px;
+	margin-left: 3px;
+
+}
+.legend_container{
+	/* position: absolute; */
+	/* right: 10px;
+	top:10px; */
+	/* padding: 10px; */
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.8em
+	padding: 5px;
+}
+
+/* .waffle_chart{
+	margin-top: 20px;
+} */
